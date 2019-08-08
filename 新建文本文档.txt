@@ -1,0 +1,11 @@
+7.7
+mvn sonar:sonar -Dsonar.projectKey=test -Dsonar.host.url=http://localhost:9000 -Dsonar.login=1c63bce213b4cabbc9a1c5c031bcece70565d51e
+
+7.1
+mvn sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.login=5960a8b0d47aada31e1b4e9e84ecad95f73b75eb
+
+139.155.41.153
+mvn sonar:sonar -Dsonar.projectKey=test -Dsonar.host.url=http://139.155.41.153:9000 -Dsonar.login=7f264c9b0eba94e5706c5519c21848e96f2ec890
+
+7.1 mysql
+mvn sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.login=22f0a486413283dc023c3f1c2f3a84734ef6d2f2
